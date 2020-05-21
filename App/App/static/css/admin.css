@@ -1,0 +1,111 @@
+#header{
+    background-color: #000;
+    color: #fff;
+    height: 46px;
+}
+#branding h1{
+    color: #fff;
+    font-size: 3rem;
+}
+a:link,
+a:visited{
+    color: blue;
+}
+div.breadcrumbs{
+    background-color: grey;
+    color: black;
+    font-weight: bold;
+    
+}
+div.breadcrumbs a{
+    background-color: #fff;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+}
+.module h2, 
+.module caption
+ {
+    background-color: #4ab3e7;;
+}
+.button .button[type="submit"],
+input[type='button'],
+.submit-row input,
+a.button{
+    background-color: grey;
+    color: white
+}
+#changelist-filter{
+    box-shadow: 1px 1px 3px 3px grey;
+}
+#changelist-filter h3{
+    font-weight: bold;
+    color: black;
+    font-size: 16px;    
+}
+#grp-admin-title{
+    display: none;
+}
+#grp-content{
+    padding: 140px 20px 120px!important
+}
+#grp-navigation h1{
+    padding: 50px 20px 4px 0px;
+    font-size: 25px;
+}
+.grp-section{
+
+}
+
+a:link, a:visited, a {
+    color: #007bff;
+}
+.grp-module h2 a{
+    color: #25282e;
+}
+#grp-navigation a {
+    color: #007bff;
+}
+.grp-fixed-footer{
+    background-image: linear-gradient(#b1aea9,#afabab);
+    
+}
+.grp-fixed-footer{
+    font-size: 15px;
+    padding: 24px 20px 20px;    
+}
+#id_model{
+    font-size: 14px;
+}
+input, select{
+    font-size: 13px!important;
+}
+.c-1 label, .grp-button, input.grp-button{
+    font-size: 15px!important;
+    font-weight: bold;
+}
+.vTextField, .vIntegerField, #id_fuel_count{
+    font-size: 13px!important;
+}
+.file-upload {
+    font-size: 13px!important;
+    }
+ul, #grp-user-tools{
+    font-size: 110%;
+}
+.grp-submit-row.grp-fixed-footer>ul>li {    
+    padding: 2px !important;
+    background: #716e6e;
+}
+input[name="_save"]{
+    background-image: linear-gradient(#4ebf48,#2f9023)
+}
+.grp-object-tools li a{
+    background: linear-gradient(#e9e5e5,#b5afaf);
+}
+.grp-object-tools a.grp-add-link {
+    background: url(../images/icons-s79f97b581c.png) 0 -891px no-repeat,linear-gradient(#e3f2f5,#93c9f7);
+}
+a.grp-add-link{
+    color: #252525;
+}

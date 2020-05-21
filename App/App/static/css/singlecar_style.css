@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(213, 218, 218);
+}
+.text-black{
+    font-size: 17px;
+    font-weight: bold;
+}
+span.field_name{
+    font-size: 16px;
+    font-weight: bold;
+}
+.carlist-single{
+    
+    height: 100%;
+}

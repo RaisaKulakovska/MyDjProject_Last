@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block title %} Single {% endblock %}
+{% load static %}
+{% block content %}
+<div class="site-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-8item-1">
+          <a href="#"><img src="{{ car.photo_main.url }}" alt="{{car.model}}"
+                  class="carlist carlist-single mx-auto d-block"></a>
+          <div class="item-1-contents">
+              <div class="text-center">
+                  <h3><a href="#">{{car.vendor}} {{car.model}}</a></h3>
+              </div>                    
+            </div>
+        </div>
+        <div class="col-4 sidebar">
+          <img src="{{ singlemanager.photo.url }}" alt="manager.photo" class="img-fluid mb-4 w-50 rounded-circle">
+          <h3 class="text-black">Position: {{singlemanager.position}}</h3>
+          <p>{{singlemanager.description}}</p>
+          <p><span class="field_name">Mobile phone: </span>{{singlemanager.phone1}}</p>
+          <p><span class="field_name">Work phone: </span>{{singlemanager.phone1}}</p>
+          <p><span class="field_name">Home phone: </span>{{singlemanager.phone1}}</p>
+          <p><span class="field_name">Telegram: </span>{{singlemanager.telegram}}</p>
+        </div>
+      </div>
+      <div class="col-12">
+        <h5 class="mt-5 mb-2 ">x6 Comments:</h5>        
+      </div>
+      <hr> 
+      <div class="row  ">
+        <div class="col">
+          <h4>{{ comment }}</h4>
+        </div>
+        <div class="col mr-auto">
+          <img src="" alt="comentator">
+          <h5>{{ First_name }} {{ Last_name }}</h5>
+          <div class="meta">xJanuary 9, 2018 at 2:21pm</div>
+          <p><a href="#">Reply</a></p>
+        </div>
+      </div>
+      <hr> 
+    </div>
+  </div>
+{% endblock %}
