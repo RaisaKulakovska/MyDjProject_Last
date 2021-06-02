@@ -24,7 +24,7 @@ pywin32-ctypes==0.2.0
 requests==2.23.0
 six==1.13.0
 sqlparse==0.3.1
-urllib3==1.25.8
+urllib3==1.26.5
 virtualenv==16.7.9
 wrapt==1.11.2
 youtube-dl==2020.3.24
